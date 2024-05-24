@@ -1,0 +1,20 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+.card {
+    height: 400px;
+}
+
+.card-title {
+    overflow: hidden;
+    height: 48px;
+}
+
+.card-text {
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-img-top{
+    object-fit: contain;
+}
